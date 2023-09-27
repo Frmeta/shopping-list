@@ -11,10 +11,11 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li href="{% url 'main:logout' %}">
-            <button>
-                Logout
-            </button>
+          <li>
+            <a href="{% url 'main:logout' %}"></ahref>
+                <button>
+                    Logout
+                </button>
             </a>
           </li>
         </ul>
@@ -68,12 +69,6 @@
     <a href="{% url 'main:create_product' %}">
         <button>
             Add New Product
-        </button>
-    </a>
-
-    <a href="{% url 'main:logout' %}">
-        <button>
-            Logout
         </button>
     </a>
 
